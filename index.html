@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- main container -->
+    <div class="container">
+        <!-- to do Card -->
+        <div class="todo_app">
+            <!-- Title -->
+            <h2>To-Do List <img src="imgs/icon.png" width="30px" alt=""></h2>
+            <div class="row">
+                <!-- add task  -->
+                <input type="text" name="task" id="task" placeholder="e.g. Upload Project">
+                <!-- Add Button -->
+                <button class="btn" onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Javascript File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
